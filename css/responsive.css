@@ -312,7 +312,11 @@ p.secdiet img {
 .ffgggcc{
   padding-left: 0px !important;
 }
-
+.secabbdesfl {
+  display: flex
+;
+  flex-direction: column-reverse;
+}
 }
 
 
@@ -746,7 +750,7 @@ p.secdiet img {
 .aboutbg2 {
   height: auto;
 }
-.heaname h1 {
+.heaname h2 {
     font-size: 57px;
     padding-top: 123px !important;
     padding-bottom: 42px;

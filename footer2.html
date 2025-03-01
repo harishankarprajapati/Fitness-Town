@@ -1,0 +1,62 @@
+
+<!-- footer -->
+<div class="container-fluid secfooterbg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="secfooterlogo">
+                    <a href="index.html"><img class="img-fluid" src="images/main-logo.png" alt=""></a>
+                </div>
+                <div class="secfootermenu">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="https://13designstreet.com/fitnesstown/webapp/index.php?branch_id=UzN4eE9JUEUzaUltOERvTTJKVVNGUT09" target="_blank">Book An Appointment</a></li>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="socalmedia">
+                    <p> <a class="p-0" href="#"> <i class="fa-brands fa-facebook"></i></a></p>
+                    <p> <a href="#"> <i class="fa-brands fa-instagram"></i></a></p>
+                    <p> <a href="#"> <i class="bi bi-whatsapp"></i></a></p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="aectem2">Copyright Ⓒ <span id="year"></span> Fitness Town. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+</div>
+
+<script>
+    // copyright-start
+    const year = document.getElementById("year");
+    year.textContent = new Date().getFullYear();
+    // copyright-end
+
+    $('.owl-carousel.footerslider').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+            0: {
+                items: 2.5
+            },
+            600: {
+                items: 3.5
+            },
+            1000: {
+                items: 6
+            }
+        }
+    })
+
+</script>

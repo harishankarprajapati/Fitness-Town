@@ -809,7 +809,7 @@ display: none;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: bottom;
-   height: 500px;
+   height: 400px;
 
 }
 .heaname h2 {
@@ -827,29 +827,30 @@ display: none;
    margin-top: -10px;
 }
 .secabouttext h3 {
-   font-family: 'Montserrat';
+   font-family: 'Michroma';
    font-size: 25px;
    color: #fff;
    text-transform: uppercase;
 }
 .secabouttext p {
    color: #fff;
-   font-family: "Questrial";
+   font-family: "Space Grotesk";
    font-size: 20px;
 }
 .secvisbgg {
    background-color: #25201B;
    padding: 50px 100px;
+   margin-top: -3px;
 }
 .secvisintext {
-   font-family: 'Questrial';
+   font-family: 'Michroma';
    font-size: 60px;
    color: #fff;
    font-weight: 700;
 }
 .secvisintext2 {
    color: #fff;
-   font-family: "Questrial";
+   font-family: "Space Grotesk";
    font-size: 20px;
 }
 .foundd-bgg {
@@ -870,83 +871,7 @@ display: none;
    margin-left: -100px !important;
    margin: 60px 40px 40px 40px;
 }
-.flodbackmargin h2 {
-   font-family: 'Questrial';
-   font-size: 40px;
-   color: #fff;
-   font-weight: 500;
-}
-.flodbackmargin p {
-    color: #fff;
-    font-family: "Open Sans";
-    font-size: 18px;
-}
-.secteainer-bg {
-   background-color: #313131;
-   padding: 60px 60px;
-}
-.secteainer-bg h3 {
-   font-family: 'Montserrat';
-   font-size: 60px;
-   color: #fff;
-   text-transform: capitalize;
-   font-weight: 700;
-}
-.secteainer-bg h3 span {
-    color: #E41C1F !important;
-}
 
- /* CAROUSEL STARTS testimonial */
- .customer-feedback .owl-item img {
-   width: 100%;
-   border-radius: 0;
-   border-left: 4px solid red;
- }
- 
- .feedback-slider-item {
-   position: relative;
-   padding: 60px;
-   margin-top: -40px;
- }
- .feedback-slider .owl-nav {
-   display: none;
-}
- .customer-rating {
-   background-color: #eee;
-   border: 3px solid #fff;
-   color: rgba(1, 1, 1, 0.702);
-   font-weight: 700;
-   border-radius: 50%;
-   position: absolute;
-   width: 47px;
-   height: 47px;
-   line-height: 44px;
-   font-size: 15px;
-   right: 0;
-   top: 77px;
-   text-indent: -3px;
- }
- 
- .thumb-prev .customer-rating {
-   top: -20px;
-   left: 0;
-   right: auto;
- }
- 
- .thumb-next .customer-rating {
-   top: -20px;
-   right: 0;
- }
- 
- .customer-rating i {
-   color: rgb(251, 90, 13);
-   position: absolute;
-   top: 10px;
-   right: 5px;
-   font-weight: 600;
-   font-size: 12px;
- }
- /* GREY BACKGROUND COLOR OF THE ACTIVE SLIDER */
  .feedback-slider-item:after {
    content: '';
    position: absolute;
@@ -1048,7 +973,7 @@ display: none;
    font-family: "Manrope";
 }
 .thumb-next span{
-   background: #E41C1F;
+   background: #F67627;
    display:block;
 }
 .thumb-next span img {
@@ -1058,7 +983,7 @@ display: none;
    opacity: 1 !important;
 }
 .thumb-prev span{
-   background: #E41C1F;
+   background: #F67627;
    display:block;
 } 
 .thumb-prev span img {
@@ -1140,7 +1065,7 @@ display: none;
    font-weight: 700;
 }
 .secmemberbg h4 {
-   color: #E41C1F;
+   color: #F67627;
    font-size: 20px;
    font-weight: 700;
    font-family: 'Space Grotesk';
@@ -1148,14 +1073,14 @@ display: none;
    padding-bottom: 10px;
 }
 .secmemberbg p span {
-   color: #E41C1F;
+   color: #F67627;
    font-size: 20px;
    font-weight: 700;
    font-family: 'Space Grotesk';
 }
 .secmemberbg p {
    color: #000;
-   font-size: 19px;
+   font-size: 18px;
    font-weight: 500;
    font-family: 'Space Grotesk';
 }
@@ -1200,6 +1125,7 @@ display: none;
 
 .secandclass{
    background-color: #000;
+   margin-top: -3px;
 }
 
 /* contact us */
@@ -1211,14 +1137,14 @@ display: none;
 }
 
 .sec-cont-hh {
-   font-family: 'Montserrat';
+   font-family: 'Michroma';
    font-style: normal;
    font-weight: 700;
    font-size: 40px;
    color: #fff;
 }
 .sec-cont-pp {
-   font-family: 'Manrope';
+   font-family: 'Space Grotesk';
    font-weight: 400;
    font-size: 20px;
    color: #fff;
@@ -1228,8 +1154,9 @@ display: none;
    color: #fff;
 }
 .sec-menu-btn2 {
-   background: #E41C1F;
-   font-family: 'Manrope';
+   background: rgb(220,11,11);
+      background: linear-gradient(0deg, rgba(220,11,11,1) 0%, rgba(252,158,8,1) 100%);
+   font-family: 'Space Grotesk';
    font-style: normal;
    text-transform: uppercase;
    font-weight: 600;
@@ -1240,35 +1167,36 @@ display: none;
    border: none;
 }
 .sec-menu-btn2:hover {
-   background: #FFF;
-   color: #000;
+   background: rgb(252,158,8);
+   background: linear-gradient(0deg, rgba(252,158,8,1) 0%, rgba(220,11,11,1) 100%);
+   color: #fff;
 }
 .contbgg {
    background: #fff;
    padding: 20px;
 }
 .seccont-add-h {
-   font-family: 'Manrope';
+   font-family: 'Space Grotesk';
    font-size: 20px;
    line-height: 150%;
    font-weight: 700;
    color: #000000;
 }
 .seccont-add-h span i {
-   color: #E41C1F;
+   color: #F67627;
 }
 .seccont-add-p {
-   font-family: 'Manrope';
+   font-family: 'Space Grotesk';
    font-weight: 400;
    font-size: 18px;
    color: #000000;
    text-decoration: none;
 }
 .iconsc span i {
-   color: #E41C1F;
+   color: #F67627;
 }
 .sec-cont-hh2 {
-   font-family: 'Montserrat';
+   font-family: 'Michroma';
    font-style: normal;
    font-weight: 700;
    font-size: 30px;
@@ -1304,6 +1232,8 @@ display: none;
    background-size: cover;
    background-position: bottom;
    height: 350px;
+   margin-top: -3px;
+   margin-bottom: -3px;
 
 }
 .secprivay{
@@ -1337,3 +1267,66 @@ display: none;
 .ffgggcc2{
    padding-right: 0px;
 }
+
+
+
+/* Gallery Styles */
+.gallery_container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 80px 10px;
+}
+
+
+.gallery_item {
+   margin-bottom: 5px;
+   overflow: hidden;
+}
+
+.popup-gallery a {
+   display: block;
+   width: 100%;
+   border: 1px solid #fff;
+   overflow: hidden;
+   transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.popup-gallery a:hover {
+   transform: scale(1.05);
+   border-color: #fff;
+}
+
+.popup-gallery img {
+   display: block;
+   width: 100%;
+   object-fit: cover;
+   min-height: 250px;
+   max-height: 250px;
+}
+
+
+/* END  */
+
+.singicon_btn_nlf {
+   position: absolute;
+   top: 44%;
+   bottom: 56%;
+   left: 44%;
+   right: 56%;
+   opacity: 0;
+}
+
+.singicon_btn_nlf svg {
+   color: #fff;
+}
+
+.popup-gallery a:hover .singicon_btn_nlf {
+   opacity: 1;
+}
+
+.hover_affect_nlf:hover img {
+   opacity: 0.5;
+}
+
+
+/* gallery end */
