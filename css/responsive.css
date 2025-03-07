@@ -6,12 +6,24 @@
     width: 1903px;
     margin: auto;
   }
-
+  .sechertext {
+    margin-right: -122px;
+    padding-left: 0px;
+  }
+  .sechertext h1 {
+    font-size: 78px;
+  }
 
   /* .secwhitpad{
   width: 1480px !important;
   margin: auto;
 } */
+ .secgymtm{
+  max-width: 110% !important;
+ }
+ .headermenusec , .headermenusec2btn {
+  font-size: 20px;
+ }
 }
 
 
@@ -324,6 +336,9 @@ p.secdiet img {
   .sec-logo-img {
     width: 50%;
   }
+  .secfootermenu li {
+    padding-bottom: 20px;
+}
   .secrrww {
     display: flex;
     flex-direction: row;

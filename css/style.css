@@ -375,7 +375,7 @@ padding-top: 30px;
 .img-container figcaption {
    display: block;
    position: absolute;
-   bottom: -40px;
+   bottom: -41px;
    /* top: -40px; */
    height: 40px;
    width: 100%;
@@ -667,12 +667,16 @@ padding-top: 30px;
    background: #F2F2F2;
    padding: 5px 0x;
 }
+.secrcol2 , .secrcol{
+   padding-left: 0;
+}
 .secbggtop p{
    font-family: 'Space Grotesk';
    font-size: 13px;
    font-weight: 500;
    text-transform: uppercase;
    text-align: center;
+   padding: 5px 0px;
 }
 .secworktext{
    font-family: 'Michroma' !important;
